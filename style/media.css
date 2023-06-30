@@ -1,0 +1,268 @@
+@media(max-width:1140px) {
+    .adidas__text {
+        max-width: 925px;
+        width: 100%;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .shoes__list {
+        max-width: 905px;
+        width: 100%;
+        row-gap: 10px;
+    }
+
+    .header__content {
+        height: 800px;
+    }
+}
+
+@media(max-width:1000px) {
+    .adidas__text {
+        max-width: 800px;
+        width: 100%;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .adidas {
+        padding: 25px 0;
+    }
+
+    .shoes__title {
+        margin-bottom: 20px;
+    }
+
+    .shoes__list {
+        max-width: 770px;
+        width: 100%;
+    }
+
+    .products {
+        flex-wrap: wrap;
+    }
+
+    .products__item {
+        width: 50%;
+    }
+
+    .products__link {
+        height: 190px;
+    }
+}
+
+@media(max-width:815px) {
+    .shoes {
+        padding-bottom: 25px;
+    }
+
+    .shoes__title {
+        margin-bottom: 15px;
+    }
+
+    .adidas {
+        padding: 15px 0;
+    }
+
+    .adidas__text {
+        max-width: 685px;
+        width: 100%;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .adidas__title {
+        margin-bottom: 13px;
+    }
+
+    .adidas__text:nth-of-type(1) {
+        margin-bottom: 15px;
+    }
+
+    .adidas__text:nth-of-type(2) {
+        margin-bottom: 20px;
+    }
+
+    .header__content {
+        height: 600px;
+    }
+
+    .logo-white>img {
+        width: 155px;
+    }
+
+    .header__title {
+        font-size: 45px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+
+    .header__title>span {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .shoes__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .shoes__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+    }
+}
+
+@media(max-width:715px) {
+    .header__form {
+        display: none;
+    }
+
+    .header__list {
+        position: fixed;
+        align-items: center;
+        flex-direction: column;
+        left: 0;
+        top: 0;
+        backdrop-filter: blur(15px);
+        box-shadow: 1px 4px 20px 2px rgb(0 0 0 / 47%);
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+        transform: translateX(-120%);
+        transition: 0.5s linear;
+    }
+
+    .header__link {
+        border-top: none;
+        padding: 14px;
+    }
+
+    .header__link:hover {
+        border-top: none;
+    }
+
+    .nav {
+        padding: 10px 30px;
+    }
+
+    .menu {
+        display: block;
+        font-weight: 700;
+        font-family: Rubik;
+        border-top: solid 2px transparent;
+        border-bottom: solid 2px transparent;
+    }
+
+    .menu:hover {
+        border-top: solid 2px #000;
+        border-bottom: solid 2px #000;
+    }
+
+    .menu:focus+.header__list {
+        transform: translateX(0);
+    }
+}
+
+@media(max-width:628px) {
+    .products__img {
+        width: 55px;
+    }
+
+    .products__link {
+        height: 140px;
+    }
+
+    .header__content {
+        height: 385px;
+    }
+
+    .adidas__text {
+        max-width: 450px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer__link {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:500px) {
+    .logo-white>img {
+        width: 130px;
+    }
+
+    .header__title {
+        font-size: 35px;
+        margin-top: 7px;
+    }
+
+    .header__title>span {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .shoes__link {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .products {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .products__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:430px) {
+    .adidas__text {
+        font-size: 14px;
+        text-align: justify;
+        max-width: 275px;
+    }
+
+    .shoes__title {
+        width: 375px;
+        margin: 0 auto 15px auto;
+    }
+
+    .shoes__item {
+        width: 50%;
+    }
+}
+
+@media(max-width:325px) {
+    .header__content {
+        height: 280px;
+    }
+
+    .footer__list {
+        flex-direction: column;
+    }
+
+    .shoes__title {
+        width: 320px;
+    }
+
+    .shoes__item {
+        width: 40%;
+    }
+}
